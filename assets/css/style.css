@@ -59,7 +59,9 @@ h1{
     gap: 200px;
 }
 
-
+.mobile-view {
+    display: none;
+}
 .resultado-bom{
     background-color: rgb(99, 233, 99);
     padding: 5px;
@@ -71,6 +73,9 @@ h1{
 @media(min-width:200px) and (max-width:650px){
     .superior{
         display:none
+    }
+    .mobile-view {
+        display: block;
     }
 
 }
